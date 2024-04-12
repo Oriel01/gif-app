@@ -6,6 +6,7 @@ import { GifsModule } from './gifs/gifs.module';
 import { SharedModule } from './shared/shared.module';
 
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     GifsModule,
     SharedModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
